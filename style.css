@@ -1,0 +1,185 @@
+body{
+    background-color:#f7f7f7;
+    margin:0px;
+    padding:0px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    /* Designing Navigation Bar */
+
+#navbar{
+    display: flex;
+    background-color: white;
+    position: sticky;
+    
+   
+}
+
+.logo img{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#navbar ul{
+    display: flex;
+    
+   
+}
+
+#navbar ul li{
+    list-style: none;
+    
+    margin-top: 7px;
+}
+
+#navbar ul li a{
+    font-size:1.3rem;
+    padding:12px;
+    text-decoration: none;
+    color:rgb(192, 188, 188)
+
+}
+#navbar ul li a:hover{
+
+    color:rgb(139, 138, 138);
+}
+.btn{
+    padding:10px;
+    margin:25px;
+    font-size:1.2rem;
+    position: relative;
+    left:500px;
+    top:-5px;
+    color:white;
+    background-image:linear-gradient(to right, #31d35c, #2bb7da);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-image:linear-gradient(to right, #01dd3c, #00a3cc);
+}
+
+/* Designing Home Screen Content */
+
+#main{
+    height: 500px;
+}
+
+#main .p1{
+     font-size: 4rem;
+    margin-left: 95px;
+    margin-top: 100px;
+}
+#main .p2{
+
+    margin-left: 95px;
+    position: relative;
+    top:-2000;
+}
+
+#main img{
+
+    z-index: -12;
+    position: absolute;
+    left:750px;
+    top:0;
+   height: 650px;
+    margin-top: -200;
+}
+
+.btn1{
+    color:white;
+    background-image:linear-gradient(to right, #31d35c, #2bb7da);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey 20px;
+    border:none;
+    cursor: pointer;
+    font-size:1.2rem;
+    padding:10px;
+    margin:25px;
+    position: relative;
+    left:100px;
+    top:-30px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.btn1:hover{
+    background-image:linear-gradient(to right, #01dd3c, #00a3cc);
+}
+
+
+/* about page styling */
+
+#about{
+    height: 630px;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    
+
+}
+
+.heading h2{
+    
+    font-size:2rem;
+    margin-left: 115px;
+    margin-top: 115px;
+    margin-bottom: 55px;
+}
+
+.heading p{
+    margin-left: 115px;
+    font-size:1.2rem;
+    letter-spacing: 2;
+    
+}
+
+/* To make different cards */
+
+
+.container{
+
+    justify-content: space-evenly;
+    position: absolute;
+    top:1000px;
+    left:70px;
+    display: flex;
+}
+
+.box{
+
+    width:300px;
+    height: 300px;
+    
+}
+
+.box p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.box h2{
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.box img{
+    margin-bottom: 23px;
+    position: relative;
+    left :120px;
+}
+
+/* Designing Blog section */
+
+
+
+
+
+
+
